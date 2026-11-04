@@ -32,6 +32,16 @@ public class Main {
         animal3.kasvataPituutta();
         animal3.naytaTiedot();
 
+        //Animal4 luonti (Konsta)
+        Animal animal4 = new Animal();
+
+        animal4.laji = "Gorilla";
+        animal4.color = "Musta";
+        animal4.pituus = 160;
+
+        animal4.naytaTiedot();
+        animal4.kasvataPituutta();
+        animal4.naytaTiedot();
   
         }
 
