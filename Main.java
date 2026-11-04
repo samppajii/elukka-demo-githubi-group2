@@ -21,6 +21,16 @@ public class Main {
         animal2.kasvataPituutta();
         animal2.naytaTiedot();
 
+        Animal animal3 = new Animal();
+
+        animal3.laji = "Koira";
+        animal3.color = "Pinkki";
+        animal3.pituus = 100;
+
+        animal3.naytaTiedot();
+        animal3.kasvataPituutta();
+        animal3.naytaTiedot();
+
   
         }
 
