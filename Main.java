@@ -21,6 +21,7 @@ public class Main {
         animal2.kasvataPituutta();
         animal2.naytaTiedot();
 
+        //Animal3 luonti (Ville)
         Animal animal3 = new Animal();
 
         animal3.laji = "Koira";
