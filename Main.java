@@ -9,6 +9,8 @@ public class Main {
         anim1.pituus = 144;
 
         anim1.naytaTiedot();
+        anim1.kasvataPituutta();
+        anim1.naytaTiedot();
 
         //Animal2 luonti (Meri)
         Animal animal2 = new Animal();
@@ -43,8 +45,5 @@ public class Main {
         animal4.kasvataPituutta();
         animal4.naytaTiedot();
   
-        }
-
-
-
+    }
 }

@@ -1,5 +1,3 @@
-
-
 public class Animal {
     public String laji;
     public String color;
@@ -15,6 +13,4 @@ public class Animal {
         pituus++;
         System.out.println("Pituus kasvoi 1cm");
     }
-
-
 }
